@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro site</title>
+    <style>
+        #principal {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: #015958a8;
+        }
+        body {
+            
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(180, 233, 233, 0.788);
+            
+        
+            
+            
+            
+        }
+        header {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color:  #015958;
+            margin: 10px;
+            padding: 10px;
+            
+        }
+        nav {
+            background-color: rgba(57, 187, 187, 0.912);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.392);
+        }
+        nav > a {
+            text-decoration: none;
+            color: #023535;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+        }
+        
+        main {
+
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: white;
+              border-radius: 10px;
+              box-shadow: 5px 5px 15px #024841;
+              padding: 5px;
+              
+            }
+        main > h1, h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="principal">Bem vindo ao meu primeiro site</h1>
+   
+        <nav>
+            <a href="https://jonhysantos.github.io/social/">rede sociais</a>
+            <a href="https://github.com/jonhysantos">repositório do GitHub</a>
+        </nav>
+    </header>   
+    <main>
+            <h2>Meus vídeos</h2>
+            <iframe width="450" height="285" src="https://www.youtube.com/embed/8e0zJPHbMx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="450" height="285" src="https://www.youtube.com/embed/Ieu0f5XAl2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br>
+            <iframe width="450" height="285" src="https://www.youtube.com/embed/nFqLn9ZO6jA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="450" height="285" src="https://www.youtube.com/embed/9skPb4sBW80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h1>Fotos e vídeos da viagem</h1>
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/foto-p.jpg" type="image/jpg">
+                <source media="(max-width:1050px)" srcset="imagens/foto-m.jpg" type="image/jpg">
+                <img src="imagens/foto-g.jpg" alt="imagem flexível">
+            </picture>
+            <br>
+            <p>Essa pessoinha ai das fotos e vídeos é a Ana Francisca minha prima, mas conhecida também como aninha </p>
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/ana-p.jpg" type="image/jpg">
+                <source media="(max-width:1050px )" srcset="imagens/ana-m.jpg" type="image/jpg">
+                <img src="imagens/ana-g.jpg" alt="aninha na agua"></picture>
+            <br>
+            <video width="400" controls src="videos/short Magic city.mp4">aninha na piscina</video>
+            <video width="400" controls src="videos/short 2.mp4">aninha nadando</video>
+    </main>
+    <footer>Desenvolvido por Jonhy Santos </footer>
+</body>
+</html>
