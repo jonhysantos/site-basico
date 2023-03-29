@@ -17,7 +17,7 @@
         body {
             
             font-family: Arial, Helvetica, sans-serif;
-            background-color: white;          
+            background-color: rgb(205, 255, 249);          
         
             
             
@@ -28,8 +28,14 @@
             text-align: center;
             background-image: linear-gradient(#14717f,#028179);    
             min-height: 150px;
-            padding-top: 40px;
+            padding-top: 20px;
             
+        }
+        header p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            color: rgb(242, 242, 242);
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.38);
         }
         nav {
             background-color: rgba(57, 187, 187, 0.912);
@@ -61,11 +67,23 @@
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
             background-color: white;
-              border-radius: 10px;
-              box-shadow: 5px 5px 15px #024841;
-              padding: 5px;
+            
+            box-shadow: 5px 5px 15px #024841;
+            padding: 20px;
+            min-width: 320px;
+            max-width: 1200px;
+            margin: auto;
+            
               
             }
+            img {
+                width: 100%;
+            }
+        main p > a {
+            background-color: #0061774f;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
         main > h1, h2 {
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
@@ -74,17 +92,20 @@
 
         div.video {
             background-color: #036c7c67;
-            display: inline-block
-            
-           
-            
-    
-            
-           
+            margin: 0px -20px 30px -19px;
+            padding: 20px;
+            padding-bottom: 57%;
+            position: relative;
+              
 
         }   
-        div.video3 {
-            display: inline-block;
+        div.video > iframe {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+
         }
         footer {
             font-family: Arial, Helvetica, sans-serif;
@@ -98,6 +119,7 @@
 <body>
     <header>
         <h1 id="principal">Bem vindo ao meu primeiro site</h1>
+        <p>Esse site foi contruído para fins de aprendizagem e práticar meus conhecimentos em HTML5 e CSS3 básico</p>
    
         <nav>
             <a href="https://jonhysantos.github.io/social/">Rede sociais</a>
@@ -106,22 +128,13 @@
         </nav>
     </header>   
     <main>
-            <h2>Meus vídeos</h2>
+            <h1>Aninha: Um dia de diversão no Magic City</h1>
+            <p>Aqui abaixo você confere um vídeos muito divertido da aninha no parque aquático <a href="https://www.magiccity.com.br/" target="_blank" rel="external">Magic City </a></p>
             <div class="video">
                 <iframe width="500" height="335" src="https://www.youtube.com/embed/8e0zJPHbMx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 
             </div>
-            <div">
-                <iframe width="500" height="335" src="https://www.youtube.com/embed/Ieu0f5XAl2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 
-                
-            </div>
-            <div class="video3">
-                <iframe width="500" height="335" src="https://www.youtube.com/embed/nFqLn9ZO6jA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                
-                <iframe width="500" height="335" src="https://www.youtube.com/embed/9skPb4sBW80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>    
-
             <h1>Fotos e vídeos da viagem</h1>
             <picture>
                 <source media="(max-width: 750px)" srcset="imagens/foto-p.jpg" type="image/jpg">
