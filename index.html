@@ -7,12 +7,35 @@
     <link rel="shortcut icon" href="imagens/jonhy.ico" type="image/x-icon">
     <title>Primeiro site</title>
     <style>
-        #principal {
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        header {
+            background-image: linear-gradient(#14717f,#028179);    
+            min-height: 150px;
+            text-align: center;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.308) ;
+            padding-top: 20px;
+        }
+        header > h1 {
             font-family: Arial, Helvetica, sans-serif;
-            color: #ffffff;
-            font-size: 3em;
-            margin-bottom: 30px;
+            font-size: 1.8em;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
             text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.36);
+        
+        }
+        header p {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 1.3em;
+            padding-bottom: 20px;
+            text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.185);
+
         }
         body {
             
@@ -21,27 +44,8 @@
         
             
             
-            
-        }
-        header {
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            background-image: linear-gradient(#14717f,#028179);    
-            min-height: 150px;
-            padding-top: 20px;
-            
-        }
-        header p {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 2em;
-            font-weight: bold;
-            color: rgb(255, 255, 255);
-            margin: auto;
-            padding-right: 10px;
-            padding-left: 10px;
-            margin-bottom: 30px;
-            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.38);
-        }
+       }
+        
         nav {
             background-color: rgba(57, 187, 187, 0.912);
             padding: 10px;
@@ -89,6 +93,21 @@
             background-color: #0061774f;
             color: rgb(0, 0, 0);
             text-decoration: none;
+        }
+        main {
+            margin:auto;
+           text-align: justify;
+           text-indent: 30px;
+           font-size: 1em;
+           line-height: 2em;
+        }
+        main p {
+            text-align: justify;
+            text-indent: 30px;
+            padding-top: 20px;
+            font-size: 1em;
+            line-height: 1em;
+            padding-bottom: 10px;
         }
         main > h1, h2 {
             font-family: Arial, Helvetica, sans-serif;
@@ -138,7 +157,7 @@
 </head>
 <body>
     <header>
-        <h1 id="principal">Bem vindo ao meu primeiro site</h1>
+        <h1>Bem vindo ao meu primeiro site</h1>
         <p>Esse site foi construído para fins de aprendizagem e prática de conhecimentos em <abbr title="HyperText Markup Language">HTML5</abbr> e <abbr title="Cascading Style Sheets">CSS3</abbr> básico</p>
    
         <nav>
