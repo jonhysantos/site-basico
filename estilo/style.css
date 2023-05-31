@@ -14,7 +14,7 @@ bady {
 header {
     text-align: center;
     background-image: linear-gradient(#027e78,#003a45);
-    width: 96vw;
+    width: 100vw;
     color: white;
 }
 header > h1,p {
