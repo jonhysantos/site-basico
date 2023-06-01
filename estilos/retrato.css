@@ -23,6 +23,10 @@ menu > ul {
     display: block;
 }
 
+menu > ul > li {
+    display: block;
+}
+
 menu > ul > li > a {
     display: block;
     padding: 10px;

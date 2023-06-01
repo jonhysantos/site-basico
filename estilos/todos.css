@@ -166,3 +166,14 @@ footer {
     background-color:  #003332;
     
 }
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    
+    }
+
+    menu {
+        display: block;
+    }
+}
