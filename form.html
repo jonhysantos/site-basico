@@ -4,53 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <style>
-        html {
-
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(to right, rgb(20,147,220),rgb(17,54,71));
-            color: white;
-            
-        }
-
-        main {
-            min-width: 300px;
-            max-width: 1000px;
-        }
-
-        .box {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            font-size: 1.5em;
-            border-radius: 10px;
-            background-color: rgba(0, 0, 0, 0.297);
-            padding: 15px;
-            border-radius: 15px;
-            width: 20%;
-            min-width: 300px;
-            max-width: 1000px;
-            
-        }
-
-        fieldset {
-            border: 3px solid dodgerblue;
-        }
-
-        legend {
-            border: 1px solid dodgerblue;
-            padding: 10px;
-            text-align: center;
-            background-color: dodgerblue;
-            border-radius: 8px;
-        }
-
-       
-    </style>
+    <link rel="stylesheet" href="style.css" media="all">
 </head>
 <body>
     <header>
@@ -69,7 +23,7 @@
                         <b>Formulário de cadastro</b>
                     </legend>
                     <br>
-                    <div>
+                    <div id="caixa">
                         <label for="inome">Nome completo:</label>
                         <input type="text" name="nome" id="inome" min="15" max="30" requerid autocomplete="name" placeholder="Maria das Graças">
                     </div>
@@ -98,8 +52,10 @@
                         <label for="ifem">Feminino</label>
                     </div>
                     <br>
-                    <input type="radio" name="sexo" id="iou">
-                    <label for="iou">Outro</label>
+                    <div>
+                        <input type="radio" name="sexo" id="iou">
+                        <label for="iou">Outro</label>
+                    </div>
                     <br>
                     <br>
                     <div>
