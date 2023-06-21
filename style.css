@@ -19,11 +19,17 @@ header > h1 {
 header > p {
     text-align: center;
     padding: 10px;
-    text-align: justify;
+}
+
+nav > span#burguer {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    cursor: pointer;
 }
 
 nav > menu {
-    display: block;
+    display: none;
 }
 
 nav > menu > ul {
@@ -35,13 +41,13 @@ nav > menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(20,147,220);
+    background-color: hsla(202, 83%, 47%, 0.423);
     color: white;
     border-top: 2px solid lightblue;
 }
 
 nav > menu > ul > li > a:hover {
-    background-color: hsla(202, 82%, 33%, 0.461);
+    background-color: hsl(202, 81%, 27%);
 }
 
 html, body {
@@ -52,7 +58,7 @@ html, body {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, rgb(20,147,220),rgb(17,54,71));
+    background-color:hsl(199, 61%, 17%);
 
     
     color: white;
