@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css" media="all">
     <link rel="stylesheet" href="estilo/Media-Query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Cadastro de clientes</h1>
         <p>Atenção: Esse formulário é apenas teste de estudo e conhecimento das linguagens <abbr title="HyperText Markup Language">HTML5</abbr> e <abbr title="Cascading Style Sheets">CSS3</abbr>, pois o mesmo não capitura dados do cliente.</p>
@@ -127,8 +127,17 @@
                 </fieldset>
             </form>
         </div>
+        <header>Desenvolvido por Jonhy Alberto</header>
     </main>
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
