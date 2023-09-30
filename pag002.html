@@ -38,13 +38,20 @@
             background-color: rgba(5, 254, 22, 0.167);
             text-indent: 10px;
         }
+
+        .cp {
+            text-indent:-55px ;
+            background-color: rgba(5, 254, 22, 0.167);
+
+        }
+
         .Pre {
             background-color: rgba(246, 255, 0, 0.169);
             text-align: left;
             text-indent: 10px;
         }
         .Sula {
-            background-color: rgba(127, 255, 212, 0.384);
+            background-color: rgba(127, 165, 255, 0.384);
             text-align: left;
         }
         th#indent {
@@ -73,9 +80,8 @@
 
         footer {
             background-color: black;
-            padding: 10px;
+            padding: 1px;
             color: white;
-            text-decoration: none;
         }
         footer > a {
             color: white;
@@ -87,6 +93,7 @@
         }
 
         section {
+            margin-top: 80px;
             text-align:  right;
         }
 
@@ -108,16 +115,39 @@
         section#pcenter {
             text-align: center;
         }
-        div#Patrocinio {
-            background: black url(./Imagens/guimaraes-modas.jpg);
-            background-repeat: no-repeat;
-            background-size: contain;
-            position: relative;
-            top: 10px;
-            left: 50px;
-            width: 100px;
-            height: 100px;
+        
+
+        .classificados {
+            margin: 10px;
+            text-align: center;
+            padding: 10px;
+            width: 320px;
+            height: 120px;
         }
+
+        .libertadores {
+            background-color: rgba(5, 254, 22, 0.167);
+            margin: 5px;
+            padding: 7px;
+
+        }
+
+        .sul-americana {
+            background-color: rgba(127, 165, 255, 0.384);
+            padding: 7px;
+        }
+
+        .pre {
+            background-color: rgba(246, 255, 0, 0.169);
+            margin: 5px;
+            padding: 7px;
+        }
+
+        .rebaixamento {
+            background-color: rgba(165, 42, 42, 0.218);
+            padding: 7px;
+        }
+
     </style>
 </head>
 <body>
@@ -259,7 +289,7 @@
                     <td>8</td>
                 </tr>
                 <tr>
-                    <th id="" class="Sula">10 <img width="30x" src="Imagens/saopaulo.png" alt="">  São Paulo</th>
+                    <th class="cp" class="Libertadores">10 <img width="30x" src="Imagens/saopaulo.png" alt="">  São Paulo</th>
                     <td>31</td>
                     <td>24</td>
                     <td>8</td>
@@ -293,7 +323,7 @@
                     <td>-7</td>
                 </tr>
                 <tr>
-                    <th id="" class="left">13 <img width="30pc" src="Imagens/cruzeiro.png" alt=""> Cruzeiro</th>
+                    <th id="" class="Sula">13 <img width="30pc" src="Imagens/cruzeiro.png" alt=""> Cruzeiro</th>
                     <td>29</td>
                     <td>24</td>
                     <td>7</td>
@@ -391,14 +421,24 @@
                 <td>53</td>
                 <td>-28</td>
             </tr> 
-            
-             
-                
-            
-        </tbody>
     </table>
-    <div id="Patrocinio"></div>
-    <br>
+    <section class="classificados">
+        <div class="libertadores">
+            Libertadores
+        </div>
+        <div class="libertadores">
+            São Paulo Campeão da Copa do Brasil
+        </div>
+        <div class="pre">
+            Pré libertadores
+        </div>
+        <div class="sul-americana">
+             Sul-americana
+        </div>
+        <div class="rebaixamento">
+            Rebaixados
+        </div>
+    </section>
     <section id="pcenter">
         <a href="https://pt-br.facebook.com/people/Guimar%C3%A3es-Modinhas/pfbid029doMM2tvQ7aRbZXqQ3ptrGt8pCvMn4Ffz5A5cDJGczzXg2PBniEKG8VW7RyHmwx2l/" target="_blank"><img src="Imagens/guimaraes-modas.jpg" alt=""></a>
         <a href="https://www.facebook.com/jonhya1/" target="_blank"><img src="Imagens/logo-facebook.jpg" alt="facebook"></a>
@@ -406,6 +446,9 @@
         <a href="https://github.com/jonhysantos"><img src="Imagens/logo-github.jpg" alt="github"></a>
         
     </section>
+    <footer>
+        <p>Criado e desenvolvido por Jonhy Alberto</p>
+    </footer>
 </div>
 
     <script>
